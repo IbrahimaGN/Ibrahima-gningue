@@ -6,7 +6,7 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Stage en Conseiller commercial",
-    cardImage: "assets/images/experience-page/sonatel.jpg",
+    cardImage: "assets/images/experience-page/logoSonatel.jpg",
     place: "SONATEL",
     time: "(01 Août, 2022 - 31 Octobre, 2022)",
     desp: "<li>Intervention directe auprès des clients,</li> <li>assistance technique,</li><li> présentation des solutions numériques de l’entreprise.</li>",
