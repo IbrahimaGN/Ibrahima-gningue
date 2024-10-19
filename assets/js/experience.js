@@ -5,19 +5,19 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Stage en Conseiller commercial",
-    cardImage: "assets/images/experience-page/logoSonatel.jpg",
+    title: "Intern in Sales Consulting",
+    cardImage: "assets/images/experience-page/logoSonatel.webp",
     place: "SONATEL",
-    time: "(01 Août, 2022 - 31 Octobre, 2022)",
-    desp: "<li>Intervention directe auprès des clients,</li> <li>assistance technique,</li><li> présentation des solutions numériques de l’entreprise.</li>",
+    time: "(August 1, 2022 - October 31, 2022)",
+    desp: "<li>Direct engagement with clients,</li> <li>technical assistance,</li> <li>presentation of the company's digital solutions.</li>",
   },
   {
-    title: "Agent recenseur RGPH-5",
+    title: "Census Agent RGPH-5",
     cardImage: "assets/images/experience-page/ANSD.png",
     place: "ANSD",
-    time: "(Mai - Juin, 2023)",
-    desp: "<li>Formation de 10 jours</li><li>Concrétisation de la cartographie</li><li>Collecte et validation de données démographiques.</li>",
-  },
+    time: "(May - June, 2023)",
+    desp: "<li>10-day training</li><li>Completion of mapping</li><li>Collection and validation of demographic data.</li>",
+  },  
 ];
 
 const showCards2 = () => {
