@@ -8,7 +8,7 @@ const exp = [
     title: "Intern in Sales Consulting",
     cardImage: "assets/images/experience-page/logoSonatel.webp",
     place: "SONATEL",
-    time: "(August 1, 2022 - October 31, 2022)",
+    time: "(August 1- October 31, 2022)",
     desp: "<li>Direct engagement with clients,</li> <li>technical assistance,</li> <li>presentation of the company's digital solutions.</li>",
   },
   {
