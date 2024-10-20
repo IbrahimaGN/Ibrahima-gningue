@@ -314,3 +314,114 @@ html[light-mode="light"] .project_item a{
         width: 95vw;
     }
 }
+.techstacks_icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centre les icônes horizontalement */
+    margin: 20px; /* Espace autour de la zone des icônes */
+}
+
+.techstack_icon {
+    font-size: 50px; /* Taille des icônes */
+    margin: 15px; /* Espace entre les icônes */
+    color: #333; /* Couleur par défaut des icônes */
+    transition: transform 0.3s, color 0.3s; /* Animation de transformation et de couleur lors du survol */
+    text-align: center; /* Centrer le texte sous les icônes */
+}
+
+.techstack_icon:hover {
+    color: #007bff; /* Couleur lors du survol */
+    transform: scale(1.1); /* Agrandissement léger lors du survol */
+}
+
+/* Styles spécifiques pour les icônes ajoutées */
+.docker_icon {
+    color: #2496ED; /* Couleur Docker */
+}
+
+.ml_icon {
+    color: #A26A2A; /* Couleur Machine Learning */
+}
+
+.dl_icon {
+    color: #B7396B; /* Couleur Deep Learning */
+}
+
+.django_icon {
+    color: #0B4B24; /* Couleur Django */
+}
+
+.flask_icon {
+    color: #343B48; /* Couleur Flask */
+}
+
+.excel_icon {
+    color: #1A8F38; /* Couleur Excel */
+}
+
+.tableau_icon {
+    color: #E93B30; /* Couleur Tableau */
+}
+
+.powerbi_icon {
+    color: #F2C94C; /* Couleur Power BI */
+}
+
+.hadoop_icon {
+    color: #66CCFF; /* Couleur Hadoop */
+}
+
+.qlik_icon {
+    color: #2E6DA4; /* Couleur Qlik */
+}
+
+.elk_icon {
+    color: #B7B7B7; /* Couleur ELK */
+}
+
+.sql_icon {
+    color: #F29400; /* Couleur SQL */
+}
+
+.nosql_icon {
+    color: #F28500; /* Couleur NoSQL */
+}
+
+.talend_icon {
+    color: #007BFF; /* Couleur Talend */
+}
+
+.r_icon {
+    color: #F8766D; /* Couleur R */
+}
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.softskills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Space between items */
+    justify-content: center; /* Center align the items */
+    margin: 20px 0; /* Add some margin above and below */
+}
+
+.softskills div {
+    background-color: #5a6374; /* White background */
+    border-left: 10px solid #0e12e4; /* Light gray border */
+    border-radius: 12px; /* More rounded corners */
+    padding: 15px 20px; /* Add padding */
+    font-size: 18px; /* Slightly larger font size */
+    font-weight: 600; /* Bold text */
+    color: #fff; /* Dark text color */
+    text-align: center; /* Center the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+    cursor: pointer; /* Change cursor to pointer */
+    font-family: 'Roboto', sans-serif; /* Set the font */
+}
+
+/* Change background color and scale on hover */
+.softskills div:hover {
+    background-color: #007BFF; /* Light gray on hover */
+    transform: translateY(-3px); /* Lift effect */
+}
