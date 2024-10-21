@@ -196,6 +196,43 @@
             </div>
         </div>
     </center>
+    <center>
+        <button id="toggleButton">Show CVs</button>
+    
+        <div class="cv" id="cvSection">
+            <div class="cv-content">
+                <div class="cv-header">
+                    <h5 class="cv-subtitle">Data Analyst</h5>
+                    <button><a href="/assets/docs/IBGN_DATA_ANALYST.pdf" target="_blank">Download</a></button>
+                </div>
+                <div class="cv-header">
+                    <h5 class="cv-subtitle">Data Engineer</h5>
+                    <button><a href="/assets/docs//IBGN_data_engineer.pdf" target="_blank">Download</a></button>
+                </div>
+                <div class="cv-header">
+                    <h5 class="cv-subtitle">Data Developer</h5>
+                    <button><a href="/assets/docs/CV_IBGN_DEV_DATA.pdf.pdf" target="_blank">Download</a></button>
+                </div>
+                <div class="cv-header">
+                    <h5 class="cv-subtitle">Data Scientist</h5>
+                    <button><a href="/assets/docs/CV_IBGN_DATA SCIENTIST.pdf" target="_blank">Download</a></button>
+                </div>
+            </div>
+        </div>
+    </center>
+    <script>
+        document.getElementById('toggleButton').addEventListener('click', function() {
+            var cvSection = document.getElementById('cvSection');
+            if (cvSection.style.display === 'none' || cvSection.style.display === '') {
+                cvSection.style.display = 'block'; /* Show the CV section */
+                this.textContent = 'Hide CVs'; /* Change button text */
+            } else {
+                cvSection.style.display = 'none'; /* Hide the CV section */
+                this.textContent = 'Show CVs'; /* Reset button text */
+            }
+        });
+    </script>
+    
 
     <br><br><br>
     <!-- Dynamic footer section -->

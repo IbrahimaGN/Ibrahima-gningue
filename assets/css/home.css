@@ -600,3 +600,76 @@ a:hover {
     margin-top: 1rem;
   }
 }
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0; /* Light background color */
+}
+
+.cv {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow */
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto; /* Center the element */
+    display: none; /* Initially hidden */
+    transition: all 0.3s ease-in-out;
+}
+
+.cv-content {
+    text-align: left; /* Left-align the content */
+}
+
+.cv-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.cv-subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+.cv-header button {
+    background-color: #007bff; /* Button background */
+    color: #ffffff; /* Button text color */
+    border: none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cv-header button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.cv-header a {
+    color: #ffffff; /* Make link white */
+    text-decoration: none; /* Remove underline */
+}
+
+#toggleButton {
+    background-color: #28a745; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#toggleButton:hover {
+    background-color: #218838; /* Darker green on hover */
+}
