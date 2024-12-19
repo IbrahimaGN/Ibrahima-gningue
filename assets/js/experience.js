@@ -5,11 +5,11 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Intern in Sales Consulting",
+    title: "Data Analyst Intern",
     cardImage: "assets/images/experience-page/logoSonatel.webp",
     place: "SONATEL",
-    time: "(August 1- October 31, 2022)",
-    desp: "<li>Direct engagement with clients,</li> <li>technical assistance,</li> <li>presentation of the company's digital solutions.</li>",
+    time: "(November 18, 2024 - Present)",
+    desp: "<li>Data analytics project - Reporting,</li> <li>Development of dashboards,</li> <li>Migration from Excel to Power BI.</li>",
   },
   {
     title: "Census Agent RGPH-5",
@@ -17,7 +17,14 @@ const exp = [
     place: "ANSD",
     time: "(May - June, 2023)",
     desp: "<li>10-day training</li><li>Completion of mapping</li><li>Collection and validation of demographic data.</li>",
-  },  
+  },
+  {
+    title: "Intern in Sales Consulting",
+    cardImage: "assets/images/experience-page/logoSonatel.webp",
+    place: "SONATEL",
+    time: "(August 1- October 31, 2022)",
+    desp: "<li>Direct engagement with clients,</li> <li>technical assistance,</li> <li>presentation of the company's digital solutions.</li>",
+  }  
 ];
 
 const showCards2 = () => {
